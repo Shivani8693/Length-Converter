@@ -117,11 +117,11 @@ function ConvertLength(fromLength, fromUnit,  toUnit)
 
 function _cmnHideElement(elementId)
 {
-    // var selectedDisplayValue = document.getElementById(elementId).style.display;
-    // if(selectedDisplayValue != 'none')
-    // {
-    //     document.getElementById(elementId).style.display = "none";
-    // }
+    var selectedDisplayValue = document.getElementById(elementId).style.display;
+    if(selectedDisplayValue != 'none')
+    {
+        document.getElementById(elementId).style.display = "none";
+    }
 }
 
 function _cmnShowElement(elementId, displayName)
